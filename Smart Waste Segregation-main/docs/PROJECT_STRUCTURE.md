@@ -23,12 +23,12 @@ Trashformer/
 │   └── favicon.svg                   # Website favicon (SVG format)
 │
 ├── 📂 models/                        # Trained AI models
-│   ├── trashformer_finetuned_*.keras # Fine-tuned model (22.2 MB) ⭐ BEST
-│   ├── trashformer_best_*.keras      # Best models (13.0 MB)
-│   └── trashformer_final.keras       # Final model (13.0 MB)
+│   ├── Smart Waste Segregation_finetuned_*.keras # Fine-tuned model (22.2 MB) ⭐ BEST
+│   ├── Smart Waste Segregation_best_*.keras      # Best models (13.0 MB)
+│   └── Smart Waste Segregation_final.keras       # Final model (13.0 MB)
 │
 ├── 📂 scripts/                       # Training & utility scripts
-│   ├── train_trashformer.py          # Main training script
+│   ├── train_Smart Waste Segregation.py          # Main training script
 │   ├── test_model.py                 # Model testing & validation
 │   ├── visualize_training.py         # Training visualization
 │   ├── split_data.py                 # Data splitting utility
@@ -88,7 +88,7 @@ Trashformer/
 | `app.py` | Flask web application | ⭐⭐⭐⭐⭐ |
 | `docs/PRESENTATION_GUIDE.md` | For teachers | ⭐⭐⭐⭐⭐ |
 | `docs/ROADMAP.md` | Project timeline | ⭐⭐⭐⭐ |
-| `scripts/train_trashformer.py` | Training script | ⭐⭐⭐⭐ |
+| `scripts/train_Smart Waste Segregation.py` | Training script | ⭐⭐⭐⭐ |
 
 ### Quick Commands
 
@@ -136,7 +136,7 @@ Note: Dataset (waste_data_split/) is ~120 MB
 ### For Developers
 
 **Setup** → `README.md` Installation section  
-**Code** → `app.py` + `scripts/train_trashformer.py`  
+**Code** → `app.py` + `scripts/train_Smart Waste Segregation.py`  
 **API** → `docs/TECHNICAL_DOCS.md`  
 **Test** → `python scripts/test_model.py 2`  
 

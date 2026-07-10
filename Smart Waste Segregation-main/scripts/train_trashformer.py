@@ -204,7 +204,7 @@ def setup_callbacks():
     
     # Timestamp for unique model naming
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    model_path = os.path.join(Config.MODEL_DIR, f'trashformer_best_{timestamp}.keras')
+    model_path = os.path.join(Config.MODEL_DIR, f'Smart Waste Segregation_best_{timestamp}.keras')
     
     # Model checkpoint - save best model
     checkpoint = ModelCheckpoint(
@@ -304,7 +304,7 @@ def fine_tune_model(model, base_model, train_generator, val_generator, initial_h
     
     # Setup callbacks for fine-tuning
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-    finetuned_model_path = os.path.join(Config.MODEL_DIR, f'trashformer_finetuned_{timestamp}.keras')
+    finetuned_model_path = os.path.join(Config.MODEL_DIR, f'Smart Waste Segregation_finetuned_{timestamp}.keras')
     
     checkpoint_ft = ModelCheckpoint(
         finetuned_model_path,
@@ -410,7 +410,7 @@ def main():
             combined_history = history.history
         
         # Save final model
-        final_model_path = os.path.join(Config.MODEL_DIR, 'trashformer_final.keras')
+        final_model_path = os.path.join(Config.MODEL_DIR, 'Smart Waste Segregation_final.keras')
         model.save(final_model_path)
         
         # Save training history (including fine-tuning if applicable)

@@ -103,11 +103,11 @@ Pallets Projects. (2024). Flask (v3.1.2) [Computer software]. https://palletspro
 If you use or reference this TrashFormer implementation, please cite:
 
 ```bibtex
-@software{trashformer2025,
+@software{Smart Waste Segregation2025,
   title={TrashFormer: Smart Waste Classification System},
   author={Your Name},
   year={2025},
-  url={https://github.com/yourusername/trashformer},
+  url={https://github.com/yourusername/Smart Waste Segregation},
   note={AI-powered waste classification using MobileNetV2 transfer learning}
 }
 ```

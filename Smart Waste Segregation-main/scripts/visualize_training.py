@@ -21,9 +21,9 @@ def find_latest_model():
     """Find the most recent model file"""
     # Try multiple possible model patterns
     model_patterns = [
-        '../models/trashformer_finetuned_*.keras',
-        '../models/trashformer_best_*.keras', 
-        '../models/trashformer_final*.keras',
+        '../models/Smart Waste Segregation_finetuned_*.keras',
+        '../models/Smart Waste Segregation_best_*.keras', 
+        '../models/Smart Waste Segregation_final*.keras',
         '../models/*.keras'
     ]
     

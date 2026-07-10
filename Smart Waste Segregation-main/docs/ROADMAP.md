@@ -1,4 +1,4 @@
-# 🗺️ TrashFormer - Project Roadmap
+# 🗺️Smart Waste Segregation - Project Roadmap
 
 ## Journey from Concept to Deployment
 
@@ -191,7 +191,7 @@ graph LR
 ```
 
 #### Deliverables:
-- ✅ `trashformer_best_*.keras` (85.16% accuracy)
+- ✅ `Smart Waste Segregation_best_*.keras` (85.16% accuracy)
 - ✅ `training_history.json`
 - ✅ Training visualizations
 
@@ -232,7 +232,7 @@ Inference Time: No significant change
 - Fine-tuned model useful for further training
 
 #### Deliverables:
-- ✅ `trashformer_finetuned_*.keras` (22.2 MB)
+- ✅ `Smart Waste Segregation_finetuned_*.keras` (22.2 MB)
 - ✅ Fine-tuning implementation
 - ✅ Performance comparison
 

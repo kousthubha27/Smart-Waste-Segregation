@@ -26,9 +26,9 @@ def load_model(model_path=None):
     if model_path is None:
         # Look for model files in multiple locations
         model_patterns = [
-            '../models/trashformer_finetuned_*.keras',
-            '../models/trashformer_best_*.keras',
-            '../models/trashformer_final*.keras',
+            '../models/Smart Waste Segregation_finetuned_*.keras',
+            '../models/Smart Waste Segregation_best_*.keras',
+            '../models/Smart Waste Segregation_final*.keras',
             '../models/*.keras',
             'models/*.keras'
         ]
@@ -42,7 +42,7 @@ def load_model(model_path=None):
             print("📁 Checked paths:")
             for pattern in model_patterns:
                 print(f"   - {pattern}")
-            print("💡 Train a model first: python train_trashformer.py")
+            print("💡 Train a model first: python train_Smart Waste Segregation.py")
             return None
         model_path = max(model_files, key=os.path.getctime)
     

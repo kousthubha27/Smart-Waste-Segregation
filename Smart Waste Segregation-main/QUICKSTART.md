@@ -48,7 +48,7 @@ python scripts/visualize_training.py
 # 1. Download and organize dataset into waste_data_split/train and waste_data_split/val
 
 # 2. Run training
-python scripts/train_trashformer.py
+python scripts/train_Smart Waste Segregation.py
 
 # Training time: ~3.5 hours on CPU (AMD Ryzen 5 5500)
 ```

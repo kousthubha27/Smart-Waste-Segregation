@@ -37,7 +37,7 @@ tf.get_logger().setLevel('ERROR')
 tf.config.optimizer.set_jit(True)  # Enable XLA JIT compilation
 
 app = Flask(__name__)
-app.secret_key = 'trashformer_secret_key_2024'
+app.secret_key = 'Smart Waste Segregation_secret_key_2024'
 # Limit upload size to 10MB
 app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024
 
@@ -106,9 +106,9 @@ def load_model():
     
     # Look for models in order of preference - prioritize finetuned models
     model_patterns = [
-        'trashformer_finetuned_*.keras',
-        'trashformer_best_*.keras',
-        'trashformer_final.keras'
+        'Smart Waste Segregation_finetuned_*.keras',
+        'Smart Waste Segregation_best_*.keras',
+        'Smart Waste Segregation_final.keras'
     ]
     
     model_path = None
@@ -280,11 +280,11 @@ def index():
         model_loaded = True
         # Get the actual model name from the loaded model path
         model_patterns = [
-            'trashformer_finetuned_*.keras',
-            'trashformer_best_*.keras',
-            'trashformer_final.keras'
+            'Smart Waste Segregation_finetuned_*.keras',
+            'Smart Waste Segregation_best_*.keras',
+            'Smart Waste Segregation_final.keras'
         ]
-        model_name = 'trashformer_finetuned_*.keras'
+        model_name = 'Smart Waste Segregation_finetuned_*.keras'
     except Exception as e:
         model_loaded = False
         model_name = None
@@ -340,7 +340,7 @@ def analytics_export_csv():
     output.seek(0)
     return output.getvalue(), 200, {
         'Content-Type': 'text/csv',
-        'Content-Disposition': 'attachment; filename="trashformer_analytics.csv"'
+        'Content-Disposition': 'attachment; filename="Smart Waste Segregation_analytics.csv"'
     }
 
 @app.route('/log_geo', methods=['POST'])
@@ -456,7 +456,7 @@ def analytics_export_pdf():
         buffer.seek(0)
         return buffer.getvalue(), 200, {
             'Content-Type': 'application/pdf',
-            'Content-Disposition': 'attachment; filename="trashformer_analytics.pdf"'
+            'Content-Disposition': 'attachment; filename="Smart Waste Segregation_analytics.pdf"'
         }
     except Exception as e:
         return jsonify({'error': str(e)}), 500

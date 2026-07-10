@@ -453,8 +453,8 @@ CMD ["python", "app.py"]
 
 **Build & Run**:
 ```bash
-docker build -t trashformer .
-docker run -p 5000:5000 trashformer
+docker build -t Smart Waste Segregation .
+docker run -p 5000:5000 Smart Waste Segregation
 ```
 
 ### Cloud Deployment
@@ -466,7 +466,7 @@ docker run -p 5000:5000 trashformer
 echo "web: python app.py" > Procfile
 
 # Deploy
-heroku create trashformer-ai
+heroku create Smart Waste Segregation-ai
 git push heroku main
 ```
 
@@ -479,11 +479,11 @@ sudo apt install python3-pip
 
 # Clone & setup
 git clone <repo>
-cd trashformer
+cd Smart Waste Segregation
 pip3 install -r requirements.txt
 
 # Run with systemd
-sudo systemctl start trashformer
+sudo systemctl start Smart Waste Segregation
 ```
 
 ---
@@ -686,7 +686,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('trashformer.log'),
+        logging.FileHandler('Smart Waste Segregation.log'),
         logging.StreamHandler()
     ]
 )

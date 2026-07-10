@@ -258,7 +258,7 @@ python scripts/visualize_training.py
 ### 4. Train New Model
 
 ```bash
-python scripts/train_trashformer.py
+python scripts/train_Smart Waste Segregation.py
 ```
 
 **Training time**: ~3.5 hours on CPU (Tested on AMD Ryzen 5 5500)
@@ -281,7 +281,7 @@ Trashformer/
 │   ├── Trashformer_best_*.keras       # Best models (13.0 MB)
 │   └── Trashformer_final.keras        # Final model (13.0 MB)
 ├── scripts/
-│   ├── train_trashformer.py        # Training script with fine-tuning
+│   ├── train_Smart Waste Segregation.py        # Training script with fine-tuning
 │   ├── test_model.py               # Model testing utilities
 │   ├── visualize_training.py       # Training visualization
 │   ├── split_data.py               # Data splitting utility
@@ -530,7 +530,7 @@ python scripts/visualize_training.py
 ### Training New Model
 
 ```bash
-python scripts/train_trashformer.py
+python scripts/train_Smart Waste Segregation.py
 ```
 
 **Configuration** (edit `Config` class in script):
