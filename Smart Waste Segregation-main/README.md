@@ -32,7 +32,7 @@
 
 ## 🌟 Overview
 
-Trashformer is a waste classification system that uses **MobileNetV2 transfer learning** to classify waste into **7 categories** with **85.16% accuracy**. The Flask web app supports single upload, camera capture, batch processing, a separate Live Localization mode, disposal tips, and an in-app Analytics dashboard with CSV/PDF export.
+Smart Waste Segregation is a waste classification system that uses **MobileNetV2 transfer learning** to classify waste into **7 categories** with **85.16% accuracy**. The Flask web app supports single upload, camera capture, batch processing, a separate Live Localization mode, disposal tips, and an in-app Analytics dashboard with CSV/PDF export.
 
 ### 🎯 Problem Statement
 
@@ -50,7 +50,7 @@ Trashformer uses deep learning to classify waste into appropriate categories, he
 
 ## ✨ Features
 
-![Trashformer Web Application](images/website/Website1.png)
+![Smart Waste Segregation Web Application](images/website/Website1.png)
 
 - 🤖 **Waste Classification**: MobileNetV2 transfer learning with 85.16% accuracy
 - 🌐 **Web Application**: Flask interface with tabs
@@ -71,13 +71,6 @@ Trashformer uses deep learning to classify waste into appropriate categories, he
 
 This project uses the **TrashBox dataset**, an open-source collection of waste object images for classification and detection tasks.
 
-**Dataset Credit**: [TrashBox by Nikhil Venkat Kumsetty](https://github.com/nikhilvenkatkumsetty/TrashBox)
-
-The TrashBox dataset is publicly available and contains 17,785+ waste images across multiple categories, originally presented at the 31st IEEE FRUCT Conference.
-
-**Citation**: 
-> Kumsetty, N. V., et al. "TrashBox: Trash Detection and Classification using Quantum Transfer Learning." 
-> *31st Conference of Open Innovations Association (FRUCT)*, University of Helsinki, Finland.
 
 ### Distribution
 
