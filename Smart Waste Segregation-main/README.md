@@ -1,4 +1,4 @@
-# 🗑️ Trashformer - Smart Waste Classification System
+# 🗑️ Smart Waste Segregation
 
 <div align="center">
 
